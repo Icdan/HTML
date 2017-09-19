@@ -1,0 +1,37 @@
+#Elek {
+    background-color: lightgreen;
+}
+
+#Aard {
+    background-color: lightblue;
+}
+
+img {
+    width: 1200px;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+#qq {
+
+
+}
+
+nav {
+    background-color: black;
+}
+
+nav a {
+    color:white;
+    font-weight: bold;
+    text-decoration: none;
+    border-right: 1px solid white;
+}
+
+#lorem {
+    float:left;
+    width: 50%;
+}
