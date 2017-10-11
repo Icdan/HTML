@@ -1,0 +1,28 @@
+header, #midsect, #botsect {
+    width: 1200px;
+}
+
+.midsect1, .midsect2 {
+    width: 500px;
+
+
+    display: inline;
+}
+
+.midsect2 {
+    float: right;
+}
+
+article {
+    display: inline-block;
+    width: 30%;
+    margin-left: 3%;
+    }
+
+#football   {
+    float:left;
+}
+
+body {
+    background-color: #efd2f2;
+}
