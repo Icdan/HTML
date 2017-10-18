@@ -9,7 +9,6 @@
 
         form ul li {
             padding: 10px;
-
         }
 
         #divleft {
@@ -22,7 +21,6 @@
             width: 50%;
             height: 400px;
             float: right;
-
         }
 
         input, select, textarea {
@@ -45,12 +43,10 @@
             margin: 250px 10px 10px 10px;
         }
 
-
-
         #radiov {
             float: none;
-
         }
+
         #radiom {
             float: none;
             margin-left: 395px;
@@ -60,7 +56,9 @@
             float: none;
         }
 
-
+        #divright .button {
+            float: right;
+        }
 
 
     </style>
@@ -70,12 +68,9 @@
 <h1>Login</h1>
 <div id="header"><h2>Burton Education</h2></div>
 <div id="formulier">
-
-    <form action="formtest.php" method="post">
+    <form action="http://www.savatarian.com/html5/form.php" method="post">
         <div id="divleft">
             <ul>
-
-
                 <li>
                     <label for="voornaam">Voornaam:
                         <input type="text" name="voornaam"/></label>
@@ -107,22 +102,20 @@
                 </li>
                 <li>
                     <label for="Omschrijving">Omschrijving
-                        <textarea name="Omschrijving"></textarea></label>
+                        <textarea name="Omschrijving" rows="8" cols="35"></textarea></label>
                 </li>
-
             </ul>
         </div>
         <div id="divright">
             <h4>Lekker eten:</h4>
             <ul>
-
                 <li>
-                    <label  for="lekker-eten">
-                        <input type="checkbox" name="lekker-eten" value="patat">
+                    <label for="lekker-eten">
+                        <input type="checkbox" name="lekker-eten[]" value="patat">
                         <span class="checkbox">Patat</span><br>
-                        <input type="checkbox" name="lekker-eten" value="bruine bonen">
+                        <input type="checkbox" name="lekker-eten[]" value="bruine bonen">
                         <span class="checkbox">Bruine bonen</span><br>
-                        <input type="checkbox" name="lekker-eten" value="linzen">
+                        <input type="checkbox" name="lekker-eten[]" value="linzen">
                         <span class="checkbox">Linzen</span><br></label>
                 </li>
                 <li>
@@ -136,7 +129,5 @@
 <div id="bot">
     <a href="006main.html">Terug naar hoofdpagina</a>
 </div>
-
-
 </body>
 </html>
