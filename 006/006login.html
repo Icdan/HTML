@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <style>
+        form ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        form ul li {
+            padding: 10px;
+        }
+
+        #divleft {
+            width: 50%;
+            height: 400px;
+            float: left;
+        }
+
+        #divright {
+            width: 50%;
+            height: 400px;
+            float: right;
+        }
+
+        input, select, textarea {
+            float: right;
+        }
+
+        body {
+            background-color: #efd2f2;
+            width: 1200px;
+            height: 1080px;
+            font-family: 'Oswald', sans-serif;
+            font-size:20px;
+        }
+
+        #bot {
+            float: left;
+            position: relative;
+            margin-top: 75px;
+        }
+
+        .button {
+            margin: 250px 10px 10px 10px;
+        }
+
+        #radiov {
+            float: none;
+        }
+
+        #radiom {
+            float: none;
+            margin-left: 395px;
+        }
+
+        #divright input {
+            float: none;
+        }
+
+        #divright .button {
+            float: right;
+        }
+
+
+    </style>
+    <title></title>
+</head>
+<body>
+<h1>Login</h1>
+<div id="header"><h2>Burton Education</h2></div>
+<div id="formulier">
+    <form action="http://www.savatarian.com/html5/form.php" method="post">
+        <div id="divleft">
+            <ul>
+                <li>
+                    <label for="voornaam">Voornaam:
+                        <input type="text" name="voornaam"/></label>
+                </li>
+                <li>
+                    <label for="tussenvoegsel">Tussenvoegsel:
+                        <input type="text" name="tussenvoegsel"/></label>
+                </li>
+                <li>
+                    <label for="achternaam">Achternaam:
+                        <input type="text" name="achternaam"/></label>
+                </li>
+                <li>
+                    <label for="geslacht">Geslacht:
+                        <input id="radiom" type="radio" name="geslacht" value="man"/> Man
+                        <input id="radiov" type="radio" name="geslacht" value="vrouw"/>Vrouw</label>
+                </li>
+                <li>
+                    <label for="kleur-ogen">Kleur ogen:
+                        <select name="Kleur-ogen">
+                            <option>Groen</option>
+                            <option>Blauw</option>
+                            <option>Bruin</option>
+                        </select></label>
+                </li>
+                <li>
+                    <label for="Geboortedatum">Geboortedatum:
+                        <input type="date" name="Geboortedatum"/></label>
+                </li>
+                <li>
+                    <label for="Omschrijving">Omschrijving
+                        <textarea name="Omschrijving" rows="8" cols="35"></textarea></label>
+                </li>
+            </ul>
+        </div>
+        <div id="divright">
+            <h4>Lekker eten:</h4>
+            <ul>
+                <li>
+                    <label for="lekker-eten">
+                        <input type="checkbox" name="lekker-eten[]" value="patat">
+                        <span class="checkbox">Patat</span><br>
+                        <input type="checkbox" name="lekker-eten[]" value="bruine bonen">
+                        <span class="checkbox">Bruine bonen</span><br>
+                        <input type="checkbox" name="lekker-eten[]" value="linzen">
+                        <span class="checkbox">Linzen</span><br></label>
+                </li>
+                <li>
+                    <input class="button" type="reset" value="Annuleren"/>
+                    <input class="button" type="submit" name="knop" value="Verzenden"/>
+                </li>
+            </ul>
+        </div>
+    </form>
+</div>
+<div id="bot">
+    <a href="006main.html">Terug naar hoofdpagina</a>
+</div>
+</body>
+</html>
